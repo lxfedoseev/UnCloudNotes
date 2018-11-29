@@ -46,6 +46,7 @@ class CreateNoteViewController: UIViewController, UsesCoreDataObjects {
       titleField.becomeFirstResponder()
       return
     }
+    
     attachedPhoto.image = image
     view.endEditing(true)
   }
